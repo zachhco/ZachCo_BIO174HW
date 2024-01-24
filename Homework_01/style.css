@@ -5,7 +5,7 @@ body {
 	padding: 30px;
 }
 
-p , ul, ol, li, table, td, th {
+p , ol, li, table, td, th {
 	font-size: 1em;
 	font-family: Georgia,serif;
 	line-height: 1.5em;
@@ -39,14 +39,40 @@ img {
     flex-wrap: wrap;
   }
 
+/* borrowed from the internet */
   .image-wrapper {
-    flex: 1; /* This allows each image to grow and take up equal space */
-    padding: 0 10px; /* This adds spacing between images */
-    box-sizing: border-box; /* This ensures padding is included in the width */
-    text-align: center; /* This centers the images within the wrapper if they have different widths */
+    flex: 1; 
+    padding: 0 10px; 
+    box-sizing: border-box; 
+    text-align: center; 
   }
   
   .image-wrapper img {
-    max-width: 100%; /* This makes the image responsive and not larger than its container */
-    height: auto; /* This maintains the aspect ratio of the image */
+    max-width: 100%;
+    height: auto; 
   }
+
+
+  ol {
+    list-style-type: upper-roman; 
+    padding-left: 20px; 
+    font-family: Arial, sans-serif;
+    color: #333; 
+}
+
+ol ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+ol li {
+  font-size: 1.2em;
+  color:  #000c6a;
+}
+
+ol ul li {
+    font-size: 0.9em; 
+    color: #555;
+    font-style: italic;
+}
