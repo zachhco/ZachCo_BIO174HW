@@ -55,24 +55,21 @@ img {
 
   ol {
     list-style-type: upper-roman; 
-    padding-left: 20px; 
-    font-family: Arial, sans-serif;
-    color: #333; 
 }
 
 ol ul {
-    list-style-type: disc;
+    list-style-type: disc; /* makes the bullets filled in */
     padding-left: 20px;
     margin-bottom: 10px;
 }
 
 ol li {
-  font-size: 1.2em;
-  color:  #000c6a;
+  font-size: 1.2em; /* changes the font size of the ordered items */
+  color:  #000c6a; /* changes the colors of the ordered items */
 }
 
 ol ul li {
-    font-size: 0.9em; 
+    font-size: 0.8em; /* changes the font size of the un-ordered items */
     color: #555;
     font-style: italic;
 }
