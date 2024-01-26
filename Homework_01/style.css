@@ -17,11 +17,13 @@ h1 {
 	color: #000c6a;
     font-family: Georgia,serif;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   }
 
 h2, h3, h4, h5, h6 {
 	font-family: Georgia,serif;
 	color: #000c6a;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 img {
@@ -73,3 +75,27 @@ ol ul li {
     color: #555;
     font-style: italic;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Georgia, sans-serif;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: #000c6ab8;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;;
+}
+
