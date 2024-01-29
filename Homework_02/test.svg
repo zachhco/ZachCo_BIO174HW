@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <line x1="50" y1="450" x2="450" y2="450" stroke="black"
+                  stroke-width="2" />
+        <line x1="50" y1="450" x2="450" y2="450" stroke="black"
+                  stroke-width="2" />
+        <line x1="50" y1="450" x2="50" y2="50" stroke="black"
+                  stroke-width="2" />
+        <text x="10" y="30" font-family="Verdana" font-size="14" fill="red">
+                    (189,996)</text>
+        <text x="10" y="470" font-family="Verdana" font-size="14" fill="red">
+                    (189,124)</text>
+        <text x="450" y="470" font-family="Verdana" font-size="14" fill="red">
+                    (922,124)</text>
+    
+        <circle cx="167.32605729877218" cy="317.88990825688074" r="5" fill="blue"></circle>
+        <circle cx="282.46930422919513" cy="300.9174311926605" r="5" fill="blue"></circle>
+        <circle cx="425.44338335607097" cy="119.26605504587155" r="5" fill="blue"></circle>
+        <circle cx="133.49249658935878" cy="100.45871559633025" r="5" fill="blue"></circle>
+        <circle cx="252.45566166439292" cy="450.0" r="5" fill="blue"></circle>
+        <circle cx="417.25784447476127" cy="383.0275229357798" r="5" fill="blue"></circle>
+        <circle cx="379.0586630286494" cy="287.1559633027523" r="5" fill="blue"></circle>
+        <circle cx="50.0" cy="233.94495412844034" r="5" fill="blue"></circle>
+        <circle cx="217.53069577080493" cy="422.4770642201835" r="5" fill="blue"></circle>
+        <circle cx="450.0" cy="50.0" r="5" fill="blue"></circle>
+    </svg>
