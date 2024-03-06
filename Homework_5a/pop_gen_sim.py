@@ -5,6 +5,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots
 
+#make page layout wide
+st.set_page_config(layout="wide")
 
 def a_simulator(number_of_generations, popsize, simulations, WAA, WAa, Waa, frequency_A):
     """Callable function 'a_simulator' which takes as inputs the number of generations, population size, number of simulationos, 
@@ -63,9 +65,10 @@ def a_simulator(number_of_generations, popsize, simulations, WAA, WAa, Waa, freq
 left_col, spacer, right_col = st.columns([1, 0.5, 2])
 
 with left_col:
+    st.header("User Inputs")
     generations = st.slider("Enter a number for the number of generations:", 1, 500, value=100, key='gens')
-    pop = st.slider("Enter a number for the population size:", 1, 5000, value=1000, key='pop')
-    sims = st.slider("Enter a number for the # of simulations:", 1, 500, value=10, key='sim')
+    pop = st.slider("Enter a number for the population size:", 1, 5000, value=500, key='pop')
+    sims = st.slider("Enter a number for the # of simulations:", 1, 500, value=80, key='sim')
     AAfit = st.slider("Fitness of AA allele:", min_value=0.0, max_value=1.0, step=0.05, value=1.0, key='WAA')
     Aafit = st.slider("Fitness of Aa allele:", min_value=0.0, max_value=1.0, step=0.05, value=1.0, key='WAa')
     aafit = st.slider("Fitness of aa allele:", min_value=0.0, max_value=1.0, step=0.05, value=1.0, key='Waa')
